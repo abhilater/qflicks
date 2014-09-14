@@ -1,0 +1,63 @@
+body {
+   background: white;
+   font-family: "Open Sans", Arial, sans-serif;
+}
+
+#content {
+	height: 75%;
+	width: 74%;
+	overflow-y: scroll;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	display: inline-block;
+	background-color: #777;
+}
+
+#list {
+	height: 74%;
+	width: 25%;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #777;
+}
+
+#info {
+	border: 1px solid #aaa;
+	background-color: #777;
+	width: auto;
+	border-radius: 5px;
+	overflow: hidden;
+	padding: 5px;
+}
+
+nav:hover #close-button {
+  opacity: 1;
+}
+
+#close-button {
+  float: right;
+  padding: 0 5px 2px 5px;
+  font-weight: bold;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+#galleryName {
+	height: 22px;
+	margin-bottom: 0px;
+	width: 120;
+}
+
+ul {
+ list-style-type: none;
+ height: 100px;
+}
+
+li {
+	margin-bottom: 1px;
+}
+
+
+

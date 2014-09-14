@@ -1,0 +1,20 @@
+{
+  "name": "qflicks",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "A movie cataloger available as a Chrome application",
+  "permissions": [
+  "fileSystem" ,
+{"fileSystem": ["write"]} ,
+{"fileSystem": ["write", "retainEntries", "directory"]} 
+  ],
+  "icons": {
+    "128": "movie-2-icon.png"
+  },
+  "app": {
+     "background": {
+       "scripts": ["js/background.js"]
+     }
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
